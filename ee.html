@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("#shw").click(function(){
+            $("#tt").show(1000);
+        })
+        $("#hd").dblclick(function(){
+            $('#tt').hide(1000);
+        })
+    })
+    </script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><button id="shw">show me</button></td>
+            <td><button id="hd">hide me</button></td>
+        </tr>
+    </table>
+    <h1 id="tt">full stack class</h1>
+</body>
+</html>
